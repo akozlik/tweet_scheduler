@@ -46,8 +46,8 @@
 class twitter{
 
     // Make sure you enter your twitter credentials here
-    var $username='kozisgreat';
-    var $password='a692085k';
+    var $username='';
+    var $password='';
     var $user_agent='';
 
     ///////////////
