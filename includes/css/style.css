@@ -1,0 +1,78 @@
+/* 
+    Document   : style
+    Created on : Jul 24, 2009, 3:31:15 PM
+    Author     : Andrew
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+body {
+background-color:#CCFFFF;
+padding: 0;
+font-family: Arial;
+font-size:13px;
+}
+
+#container
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: white;
+    width: 950px;
+}
+
+label
+{
+    position: absolute;
+    text-align: right;
+    width: 125px;
+}
+
+input, textarea, select
+{
+    margin-left: 140px;
+}
+
+table, th
+{
+    text-align: left;
+}
+
+#errors
+{
+    border: 5px solid;
+    background-color: rgb(255, 207, 207);
+    border-color: rgb(229, 163, 163);
+    color: rgb(128, 27, 27);
+    padding: 3px 10px;
+}
+
+#success
+{
+    border: 5px solid;
+    background-color: #F0FEE9;
+    border-color: #E1EFDB;
+    padding: 3px 10px;
+}
+
+
+#message
+{
+    width: 400px;
+    height: 75px;
+}
+
+#schedule_form
+{
+    margin-bottom: 25px;
+}
